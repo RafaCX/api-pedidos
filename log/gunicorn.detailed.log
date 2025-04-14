@@ -1,0 +1,17 @@
+[2025-04-13 20:56:47,362] INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.15.12:5000 - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:47,365] INFO [33mPress CTRL+C to quit[0m - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:47,368] INFO  * Restarting with stat - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:50,813] INFO 127.0.0.1 - - [13/Apr/2025 20:56:50] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:50,836] INFO 127.0.0.1 - - [13/Apr/2025 20:56:50] "GET /openapi/ HTTP/1.1" 200 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:51,054] INFO 127.0.0.1 - - [13/Apr/2025 20:56:51] "[36mGET /openapi/swagger/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:55,288] INFO 127.0.0.1 - - [13/Apr/2025 20:56:55] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:55,309] INFO 127.0.0.1 - - [13/Apr/2025 20:56:55] "[36mGET /openapi/swagger/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:55,325] INFO 127.0.0.1 - - [13/Apr/2025 20:56:55] "[36mGET /openapi/swagger/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:55,326] INFO 127.0.0.1 - - [13/Apr/2025 20:56:55] "[36mGET /openapi/swagger/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:55,423] INFO 127.0.0.1 - - [13/Apr/2025 20:56:55] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
+[2025-04-13 20:56:59,816] INFO Coletando pedidos - call_trace=C:\api-Backend\api-pedidos\app.py L80  
+[2025-04-13 20:56:59,827] INFO 3 pedidos encontrados - call_trace=C:\api-Backend\api-pedidos\app.py L90  
+[2025-04-13 20:56:59,837] INFO 127.0.0.1 - - [13/Apr/2025 20:56:59] "GET /pedidos HTTP/1.1" 200 - - call_trace=C:\api-Backend\api-pedidos\env\Lib\site-packages\werkzeug\_internal.py L97  
